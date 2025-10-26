@@ -1,0 +1,333 @@
+/* Landing Page */
+
+.hero {
+    background: 
+    linear-gradient(rgba(var(--color-primary-rgb), 0.7), rgba(var(--color-primary-rgb), 0.7)),
+        url('../images/hero_bg.jpg') no-repeat center center;
+    background-size: cover;
+    max-width: 100% !important;
+}
+
+.hero-title {
+    font-size: clamp(3rem, 6vw, 5rem); 
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+    color: var(--color-white)
+}
+
+.hero-form {
+    color: var(--color-primary) !important;
+    box-shadow: var(--shadow-card);
+    border-radius: 15px;
+}
+
+.hero-form .form-label {
+    color: var(--color-primary) !important;
+}
+
+.hero-form .form-control {
+    border: 0;
+    background-color: var(--color-gray-6);
+    text-align: center;
+}
+
+.getaway-card {
+    border-radius: 10px;
+    box-shadow: var(--shadow-card);
+}
+
+.getaway-card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+}
+
+/* Flights page */
+
+.list-odd {
+    background-color: var(--color-gray-6);
+}
+
+.list-even {
+    background-color: var(--color-white);
+}
+
+.sticky-bottom-btn {
+  position: sticky;
+  bottom: 0;
+  background: white; 
+  padding: 1rem;
+  z-index: 100; 
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05); 
+}
+
+.flights-results-container {
+    max-width: 800px !important;
+}
+
+/* Booking page */
+
+.booking-container {
+    max-width: 800px !important;
+}
+
+.guests-card {
+    box-shadow: var(--shadow-card);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.booking-container hr {
+    color: var(--color-gray-5);
+    margin: 10px 0;
+    height: 2px
+}
+
+/* Add-ons page */
+
+.add-on-card {
+    border-radius: 10px;
+    box-shadow: var(--shadow-card);
+}
+.add-on-card img {
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* Payments Page */
+.payment-card {
+    box-shadow: var(--shadow-card);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.payment-disclaimer {
+  background-color: var(--color-gray-5) !important;
+}
+
+.payment-method-container {
+  max-width: 1000px !important;
+}
+
+
+/*=========================Profile Page (for Logged-in User ========================*/
+
+.profile-tabs .nav-link {
+    color: var(--bs-dark); 
+}
+
+.profile-tabs .nav-link.active {
+    border-bottom: 3px solid var(--bs-primary); 
+    color: var(--bs-primary);
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    main.container {
+        max-width: 1000px; 
+    }
+}
+/*====================== End of Profile Page (for Logged-in User ========================*/
+
+/* ============================ contact us page ===============================*/
+.contact-image {
+  background-image: url("../images/contact_image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+}
+
+/* Ensure consistency with other pages */
+.col-md-6 > .contact-image {
+  display: block;
+  min-height: 100%;
+}
+/* ============================ end of contact us page ===============================*/
+
+
+
+/* =============================== Log-in Page ==================================== */
+
+.login-image {
+  background-image: url("../images/login_image.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.col-md-6 > .login-image {
+  display: block;
+  min-height: 100%;
+}
+
+.login-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bypass-container {
+  max-width: 520px;
+  background: #f8f9fa;
+  border-left: 4px solid var(--color-primary);
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .login-image {
+    display: none;
+  }
+  main.container-fluid {
+    padding-top: 2rem;
+  }
+}
+/* =============================== End of Log-in Page ==================================== */
+
+
+
+/* ==================== register page ============== */
+
+.register-image {
+  background-image: url("../images/register_image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+}
+/* ============= end of register page ============== */
+
+/* ===== modal (para sa terms&conditions at privacy notice) ======*/
+.modal-content {
+  border-radius: 1rem;
+}
+
+.modal-body {
+  line-height: 1.6;
+}
+
+.modal-title {
+  color: var(--flyx-blue, #092c4c);
+}
+
+/* =========== end of modal (for about page only) ============== */
+/* ================= About Us Page ================================*/
+
+.hero-about {
+  position: relative;
+  background: 
+    linear-gradient(rgba(9, 44, 76, 0.65), rgba(9, 44, 76, 0.65)),
+    url("../images/about_image.jpg") center/cover no-repeat;
+  color: #ffffff;
+  padding: 6rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hero-about::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 44, 76, 0.4);
+  z-index: 1;
+}
+
+.hero-about .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-about h1 {
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.hero-about p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.card1 {
+  background-color: #ffffff;
+  color: var(--color-gray-2);
+  border: 1px solid var(--color-gray-5);
+  transition: all 0.3s ease;
+}
+
+.card1 h4 {
+  color: var(--color-primary);
+}
+
+.card1:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-card);
+}
+
+.border-top {
+  border-top: 1px solid var(--color-gray-5) !important;
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.btn-light {
+  color: var(--color-primary) !important;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff !important;
+  color: var(--color-primary) !important;
+}
+
+.footer-blue {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white);
+}
+
+a, .btn, .card {
+  transition: all 0.3s ease-in-out;
+}
+.card1 {
+  position: relative;
+  border-radius: 1.5rem !important;
+  overflow: hidden; 
+  background-color: #fff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8mm;
+  height: 100%;
+  background-color: var(--color-primary);
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+.card1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.hero-get-started {
+  background: linear-gradient(rgba(9, 44, 76, 0.7), rgba(9, 44, 76, 0.7)),
+              url("../images/about1.jpg") center/cover no-repeat;
+}
+
+.hero-section h1,
+.hero-section h2,
+.hero-section p,
+.hero-section .btn {
+  animation: fadeInUp 1s ease both;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ================= End of About Us Page ================================*/
