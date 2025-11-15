@@ -3,7 +3,7 @@
 ## 1. Title Page
 | Project Name: | &#9992;&#65039; Airline Booking System                                                                                 |
 |---------------|--------------------------------------------------------------------------------------------------------|
-| Version       | 1.0.3                                                                                                  |
+| Version       | 2.0.0                                                                                                  |
 | Date          | October 14, 2025                                                                                       |
 | Authors       | [Cris Bagotsay](https://github.com/blink1197/)<br>[Richard Delos Trinos](https://github.com/richard-DT)|
 
