@@ -5,7 +5,7 @@
 |---------------|--------------------------------------------------------------------------------------------------------|
 | Version       | 2.0.0                                                                                                  |
 | Date          | October 14, 2025                                                                                       |
-| Authors       | [Cris Bagotsay](https://github.com/blink1197/)<br>[Richard Delos Trinos](https://github.com/richard-DT)|
+| Authors       | [Richard Delos Trinos](https://github.com/richard-DT)<br>[Cris Bagotsay](https://github.com/blink1197/)|
 
 ## 2. Table of Contents
 1. [Title Section](#1-title-page)
@@ -18,6 +18,9 @@
 8. [Data Requirements](#8-data-requirements)
 9. [Glossary](#9-glossary)
 10. [Appendices](#10-appendices)
+11. [Title Section](#11-current-actual-output)
+12. [Hosted Application](#hosted-application)
+
 
 ## 3. Features and Scope (Phase 1)
 This phase focuses only on the Core Search and Display as the Minimum Viable Product (MVP).
@@ -249,11 +252,11 @@ Definitions of terms and acronyms used in the document.
 #### 10.1 Revision History
 | Version | Date           | Author(s)                                      | Description / Changes Made                          |
 |----------|----------------|------------------------------------------------|-----------------------------------------------------|
-| 1.0.0    | October 15, 2025 | [Cris Bagotsay](https://github.com/blink1197/),<br> [Richard Delos Trinos](https://github.com/richard-DT) | Initial draft of the Technical Specifications Document. |
+| 1.0.0    | October 15, 2025 | [Richard Delos Trinos](https://github.com/richard-DT) | Initial draft of the Technical Specifications Document. |
 | 1.0.1    | October 18, 2025 | [Richard Delos Trinos](https://github.com/richard-DT) | Add ERD data types and public link to the ERD. |
 | 1.0.2    | October 20, 2025 | [Cris Bagotsay](https://github.com/blink1197/) | Add new terms and definitions in Glossary section and update ERD link to point directly to draw.io link. |
 | 1.0.3    | October 23, 2025 | [Cris Bagotsay](https://github.com/blink1197/) | Add pages overview to list the pages' name and purposes. |
-| 2.0.0    | October 26, 2025 | [Richard Delos Trinos](https://github.com/richard-DT) | Add Phase 2 required static pages: Log-in, Register, About Us, Contact Us, User Profile, Error/ Empty State Page . |
+
 
 #### 10.2 GitHub Repository & Collaboration Guidelines
 * Repository: Create a new public GitHub repo called airline-booking-system.
@@ -269,3 +272,53 @@ Definitions of terms and acronyms used in the document.
 * Duration: Group of 3-5 Bootcampers for a project lasting at least 2 weeks.
 * Consultation: Groups must schedule at least three 30-minute consultation sessions (3 days prior) with the instructors/consultants during available work hours.<br> The Group Leader schedules the consultation using the Google Calendar App.
 * Check-in: Instructors will check-in regularly via a group chat (created by the instructor).
+
+## 11. Current Actual Output
+
+### 11.1 Features
+
+1. **Search and select flights**
+2. **Input passenger(s) info**
+3. **Select add-on services**
+4. **View booking summary**
+5. **Pay via card payment**
+6. **Receive mock boarding passes and payment receipt PDFs**
+7. **User creation and authentication (login, register)**
+8. **User profiles with booking history**
+9. **Admin dashboard**
+
+   * Manage airlines, airports, flights, bookings, payments, users, and more
+10. **Guest booking** — non‑authenticated users can still book flights
+
+---
+
+### 11.2 Limitations
+
+1. **One‑way trips only** (round trip coming soon)
+2. **Direct flights only** (connecting flights planned for future upgrade)
+3. **Add‑ons limited to travel insurance** (seat selection, extra baggage coming soon)
+4. **Payments accepted via card only**
+
+---
+
+### 11.3 Test Accounts
+
+#### **Admin**
+
+* Email: `admin@mail.com`
+* Password: `admin123`
+
+#### **Test User**
+
+* Email: `jamesdoe@email.com`
+* Password: `sample123`
+
+### **Mock Valid Credit Card (Testing Only)**
+
+* `4111 1111 1111 1111`
+
+---
+
+## Hosted Application
+
+You can view the live application here: [Airline Booking System](https://full-stack-airline-flight-booking-s.vercel.app/)
